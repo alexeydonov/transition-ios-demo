@@ -30,6 +30,7 @@
 		8A0D4F9B219DB0740054DDD5 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 		8A0D4F9D219DB2AF0054DDD5 /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
 		8A0D4F9F219DB3880054DDD5 /* UINavigationController+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transition.swift"; sourceTree = "<group>"; };
+		8A0D4FA1219DDD240054DDD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		8A0D4F77219DA97C0054DDD5 = {
 			isa = PBXGroup;
 			children = (
+				8A0D4FA1219DDD240054DDD5 /* README.md */,
 				8A0D4F82219DA97C0054DDD5 /* Transition */,
 				8A0D4F81219DA97C0054DDD5 /* Products */,
 			);
