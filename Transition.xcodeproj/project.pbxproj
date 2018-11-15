@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8A0D4F84219DA97C0054DDD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F83219DA97C0054DDD5 /* AppDelegate.swift */; };
-		8A0D4F86219DA97C0054DDD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F85219DA97C0054DDD5 /* ViewController.swift */; };
 		8A0D4F89219DA97C0054DDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D4F87219DA97C0054DDD5 /* Main.storyboard */; };
 		8A0D4F8B219DA97E0054DDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D4F8A219DA97E0054DDD5 /* Assets.xcassets */; };
 		8A0D4F8E219DA97E0054DDD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D4F8C219DA97E0054DDD5 /* LaunchScreen.storyboard */; };
+		8A0D4F96219DA9D90054DDD5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F95219DA9D90054DDD5 /* TableViewController.swift */; };
+		8A0D4F98219DA9EC0054DDD5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F97219DA9EC0054DDD5 /* ImageViewController.swift */; };
+		8A0D4F9C219DB0740054DDD5 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F9B219DB0740054DDD5 /* TransitionAnimator.swift */; };
+		8A0D4F9E219DB2AF0054DDD5 /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F9D219DB2AF0054DDD5 /* TransitionCoordinator.swift */; };
+		8A0D4FA0219DB3880054DDD5 /* UINavigationController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D4F9F219DB3880054DDD5 /* UINavigationController+Transition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A0D4F80219DA97C0054DDD5 /* Transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0D4F83219DA97C0054DDD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A0D4F85219DA97C0054DDD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A0D4F88219DA97C0054DDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A0D4F8A219DA97E0054DDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0D4F8D219DA97E0054DDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0D4F8F219DA97E0054DDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0D4F95219DA9D90054DDD5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8A0D4F97219DA9EC0054DDD5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		8A0D4F9B219DB0740054DDD5 /* TransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
+		8A0D4F9D219DB2AF0054DDD5 /* TransitionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
+		8A0D4F9F219DB3880054DDD5 /* UINavigationController+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				8A0D4F83219DA97C0054DDD5 /* AppDelegate.swift */,
-				8A0D4F85219DA97C0054DDD5 /* ViewController.swift */,
 				8A0D4F87219DA97C0054DDD5 /* Main.storyboard */,
+				8A0D4F95219DA9D90054DDD5 /* TableViewController.swift */,
+				8A0D4F97219DA9EC0054DDD5 /* ImageViewController.swift */,
 				8A0D4F8A219DA97E0054DDD5 /* Assets.xcassets */,
 				8A0D4F8C219DA97E0054DDD5 /* LaunchScreen.storyboard */,
 				8A0D4F8F219DA97E0054DDD5 /* Info.plist */,
+				8A0D4F9B219DB0740054DDD5 /* TransitionAnimator.swift */,
+				8A0D4F9D219DB2AF0054DDD5 /* TransitionCoordinator.swift */,
+				8A0D4F9F219DB3880054DDD5 /* UINavigationController+Transition.swift */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0D4F86219DA97C0054DDD5 /* ViewController.swift in Sources */,
+				8A0D4FA0219DB3880054DDD5 /* UINavigationController+Transition.swift in Sources */,
 				8A0D4F84219DA97C0054DDD5 /* AppDelegate.swift in Sources */,
+				8A0D4F9C219DB0740054DDD5 /* TransitionAnimator.swift in Sources */,
+				8A0D4F98219DA9EC0054DDD5 /* ImageViewController.swift in Sources */,
+				8A0D4F9E219DB2AF0054DDD5 /* TransitionCoordinator.swift in Sources */,
+				8A0D4F96219DA9D90054DDD5 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
